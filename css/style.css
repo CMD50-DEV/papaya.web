@@ -1,0 +1,49 @@
+@import url("home/style.css");
+@import url("why_we/style.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+  z-index: 9999;
+}
+
+footer .nav-link,
+footer .navbar-brand {
+  padding: 0;
+}
+
+.papayaButton {
+  display: block;
+  float: left;
+  clear: left;
+  background: #F29E32;
+  padding: 15px 30px 15px 30px;
+  border-radius: 30px;
+  color: white;
+  width: auto;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.papayaButton:hover {
+  color: white;
+  background: #F28F00;
+  text-transform: none;
+  text-decoration: none;
+  padding: 15px 40px 15px 40px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+#home{
+    background-image: url("../../img/home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+#home {
+    .fx-title{
+        font-size:40px;
+    }
+    .fx-desc{
+        margin-top:50px;
+    }
+    .papayaButton{
+        margin-top:30px;
+    }
+}
