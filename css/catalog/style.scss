@@ -1,0 +1,43 @@
+#catalog {
+    .papayaCard{
+        min-height:230px;
+        height:auto;
+        margin:0 auto;
+        width:100%;
+        cursor: default;
+        border:1px solid lightgray;
+        transition: all ease .3s;
+        border-radius: 10px;
+        background-color: white;
+
+        img{
+            height:140px;
+        }
+    }
+    
+    .papayaCard:hover{
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        border:1px solid white;
+    }
+
+    .fx-title{
+        font-weight: bold;
+        margin-top:10px;
+    }
+
+    .fx-desc{
+        padding:0 10px 20px 10px;
+    }
+    .papayaPrev, 
+    .papayaNext{
+        font-size:50px;
+        text-decoration: none;
+        text-transform: none;
+        color:#F29E32;
+        transition: all ease .3s;
+    }
+    .papayaPrev:hover, 
+    .papayaNext:hover{
+        color:#F28F00;
+    }
+}

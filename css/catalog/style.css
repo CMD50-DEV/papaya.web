@@ -1,0 +1,47 @@
+#catalog .papayaCard {
+  min-height: 230px;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  cursor: default;
+  border: 1px solid lightgray;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#catalog .papayaCard img {
+  height: 140px;
+}
+
+#catalog .papayaCard:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid white;
+}
+
+#catalog .fx-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#catalog .fx-desc {
+  padding: 0 10px 20px 10px;
+}
+
+#catalog .papayaPrev,
+#catalog .papayaNext {
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: none;
+  color: #F29E32;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+#catalog .papayaPrev:hover,
+#catalog .papayaNext:hover {
+  color: #F28F00;
+}
+/*# sourceMappingURL=style.css.map */

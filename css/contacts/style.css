@@ -1,0 +1,37 @@
+#contacts {
+  background-image: url("../../img/questions.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+#contacts .fx-form {
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 50px;
+  border: 1px solid lightgrey;
+  outline: none;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+#contacts .fx-form:focus {
+  -webkit-box-shadow: 0 0 0 1px #ff9f20;
+          box-shadow: 0 0 0 1px #ff9f20;
+}
+
+#contacts .fx-textarea {
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid lightgrey;
+  outline: none;
+  resize: none;
+  padding: 20px;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+#contacts .fx-textarea:focus {
+  -webkit-box-shadow: 0 0 0 1px #ff9f20;
+          box-shadow: 0 0 0 1px #ff9f20;
+}
+/*# sourceMappingURL=style.css.map */
