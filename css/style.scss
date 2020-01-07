@@ -53,3 +53,13 @@ footer .navbar-brand{
     text-decoration: none;
     padding:15px 40px 15px 40px;
 }
+.fx-tel{
+    .fa{ color:#F28F00; font-size:20px; }
+    color:black;
+    transition:all ease .3s;
+}
+.fx-tel:hover{
+    color:black;
+    text-decoration: none;
+    color:#F28F00;
+}
