@@ -8,7 +8,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 *{font-family: 'Montserrat', sans-serif;}
-
+.s-mob{display:none}
+.s-web{display:block}
 section {
     width:100%;
     min-height:100vh;
@@ -62,4 +63,10 @@ footer .navbar-brand{
     color:black;
     text-decoration: none;
     color:#F28F00;
+}
+@media only screen and (max-width: 600px) {
+    .s-web{display:none}
+    .s-mob{display:block}
+    #instagram{ min-height: auto; }
+    .s-row{ text-align: center !important; }
 }

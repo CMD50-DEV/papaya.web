@@ -15,7 +15,10 @@ $(document).ready(function(){
 	}
 	
 	$(".nav-link").click(function() {
-		scrollToAnchor($(this).attr("data-anchor"));
+        scrollToAnchor($(this).attr("data-anchor"));
+        if(window.matchMedia('(max-width: 767px)').matches){
+            $(".navbar-collapse").removeClass("show");
+        }
     });
 
     $(".navbar-brand").click(function(){
@@ -34,8 +37,21 @@ $(document).ready(function(){
     }
 
     $( window ).scroll(function() {
-        navScroll(color);
+        if (!window.matchMedia('(max-width: 767px)').matches) {
+            navScroll(color);
+        }
     });
 
+    function mobileNavbar(){
+        if (window.matchMedia('(max-width: 767px)').matches) {
+            $(".navbar").addClass("bg-light");
+        }
+    }
+
+    $('.s-carousel').slick();
+
     navScroll(color);
+    mobileNavbar();
+
+    
 });

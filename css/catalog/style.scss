@@ -14,17 +14,14 @@
             height:140px;
         }
     }
-    
     .papayaCard:hover{
         box-shadow: 0 0 10px rgba(0,0,0,0.2);
         border:1px solid white;
     }
-
     .fx-title{
         font-weight: bold;
         margin-top:10px;
     }
-
     .fx-desc{
         padding:0 10px 20px 10px;
     }
@@ -39,5 +36,26 @@
     .papayaPrev:hover, 
     .papayaNext:hover{
         color:#F28F00;
+    }
+    @media only screen and (max-width: 600px) {
+        .s-title{margin-top:20px}
+        .s-carousel{
+            text-align: center;
+            padding:10px;
+            width:95%;
+            margin:0 auto;
+        }
+        .papayaCard{
+            img{margin:0 auto}
+            text-align: center;
+            margin:10px auto;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    #catalog{
+        min-height: auto;
+        height:auto;
+        padding-bottom:20px;
     }
 }

@@ -61,4 +61,16 @@
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+@media only screen and (max-width: 600px) {
+  #why_we .s-title {
+    margin-top: 20px;
+  }
+  #why_we .s-desc {
+    text-align: center;
+  }
+  #why_we .cardHead {
+    width: 25% !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */

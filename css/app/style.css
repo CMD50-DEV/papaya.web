@@ -2,4 +2,11 @@
   font-weight: bold;
   font-size: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  #app .s-iphone {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

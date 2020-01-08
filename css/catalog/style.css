@@ -44,4 +44,31 @@
 #catalog .papayaNext:hover {
   color: #F28F00;
 }
+
+@media only screen and (max-width: 600px) {
+  #catalog .s-title {
+    margin-top: 20px;
+  }
+  #catalog .s-carousel {
+    text-align: center;
+    padding: 10px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  #catalog .papayaCard {
+    text-align: center;
+    margin: 10px auto;
+  }
+  #catalog .papayaCard img {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #catalog {
+    min-height: auto;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
